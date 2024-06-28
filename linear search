@@ -1,0 +1,9 @@
+a=[]
+print(a)
+s=eval(input())
+for i in range(0,len(a),1):
+    if(s==a[i]):
+      print("Element found at",i+1)
+      break
+    else:
+      print("Element not found")
